@@ -1,5 +1,5 @@
 import { combineReducers } from '@reduxjs/toolkit';
-import jphReducer from '../../view/redux/jph/jphReducer';
+import jphReducer from '../../screens/redux/jph/jphReducer';
 
 /* Set Reducer Name */
 export const rootReducer = combineReducers({

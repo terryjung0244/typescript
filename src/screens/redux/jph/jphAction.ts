@@ -13,3 +13,7 @@ export const jphReducerApiSuccess = () => ({
 export const jphReducerApiFailure = () => ({
   type: JPH_API_FAILURE
 })
+
+export const jphReducerSetInput = () => ({
+  type: SET_INPUT
+})

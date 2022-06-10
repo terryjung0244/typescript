@@ -6,7 +6,7 @@ import { Provider } from 'react-redux';
 import createSagaMiddleware from 'redux-saga';
 import { rootReducer } from './service/store';
 import rootSaga from './service/saga'
-import './view/style/globalStyle.scss';
+// import './view/style/globalStyle.scss';
 import './index.css';
 
 const sagaMiddleware = createSagaMiddleware();
